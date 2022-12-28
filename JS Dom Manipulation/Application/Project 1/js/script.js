@@ -47,7 +47,7 @@ const quotes = [{
 
 btn.addEventListener('click',function(){
     let randomNumber = Math.floor(Math.random() * quotes.length);
-    
+
     quote.innerHTML = quotes[randomNumber].quote;
     person.innerHTML = quotes[randomNumber].person;
 })
